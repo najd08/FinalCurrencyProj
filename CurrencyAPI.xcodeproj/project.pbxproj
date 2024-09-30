@@ -12,6 +12,13 @@
 		CE60B8142CA8692C0044C48C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60B8132CA8692C0044C48C /* Item.swift */; };
 		CE60B8162CA8692D0044C48C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE60B8152CA8692D0044C48C /* Assets.xcassets */; };
 		CE60B81A2CA8692D0044C48C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE60B8192CA8692D0044C48C /* Preview Assets.xcassets */; };
+		CE60B8222CA86A050044C48C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60B8212CA86A050044C48C /* Color.swift */; };
+		CE60B8242CA872550044C48C /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60B8232CA872550044C48C /* Currency.swift */; };
+		CE60B8262CA878ED0044C48C /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60B8252CA878ED0044C48C /* ExchangeRate.swift */; };
+		CE60B8282CA87EB70044C48C /* ExchangeRateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60B8272CA87EB70044C48C /* ExchangeRateManager.swift */; };
+		CE60B82A2CAAC1400044C48C /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60B8292CAAC1400044C48C /* MainTabView.swift */; };
+		CE60B82C2CAAC1AE0044C48C /* ProfileDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60B82B2CAAC1AE0044C48C /* ProfileDetailsView.swift */; };
+		CE60B82E2CAAC2130044C48C /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60B82D2CAAC2130044C48C /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		CE60B8152CA8692D0044C48C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE60B8172CA8692D0044C48C /* CurrencyAPI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CurrencyAPI.entitlements; sourceTree = "<group>"; };
 		CE60B8192CA8692D0044C48C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE60B8212CA86A050044C48C /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		CE60B8232CA872550044C48C /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		CE60B8252CA878ED0044C48C /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
+		CE60B8272CA87EB70044C48C /* ExchangeRateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateManager.swift; sourceTree = "<group>"; };
+		CE60B8292CAAC1400044C48C /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		CE60B82B2CAAC1AE0044C48C /* ProfileDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailsView.swift; sourceTree = "<group>"; };
+		CE60B82D2CAAC2130044C48C /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpView.swift; path = ../../../SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +68,16 @@
 		CE60B80E2CA8692C0044C48C /* CurrencyAPI */ = {
 			isa = PBXGroup;
 			children = (
+				CE60B8202CA869B70044C48C /* xtensions */,
 				CE60B80F2CA8692C0044C48C /* CurrencyAPIApp.swift */,
 				CE60B8112CA8692C0044C48C /* ContentView.swift */,
 				CE60B8132CA8692C0044C48C /* Item.swift */,
+				CE60B8232CA872550044C48C /* Currency.swift */,
+				CE60B8252CA878ED0044C48C /* ExchangeRate.swift */,
+				CE60B8272CA87EB70044C48C /* ExchangeRateManager.swift */,
+				CE60B82D2CAAC2130044C48C /* SignUpView.swift */,
+				CE60B82B2CAAC1AE0044C48C /* ProfileDetailsView.swift */,
+				CE60B8292CAAC1400044C48C /* MainTabView.swift */,
 				CE60B8152CA8692D0044C48C /* Assets.xcassets */,
 				CE60B8172CA8692D0044C48C /* CurrencyAPI.entitlements */,
 				CE60B8182CA8692D0044C48C /* Preview Content */,
@@ -70,6 +91,14 @@
 				CE60B8192CA8692D0044C48C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE60B8202CA869B70044C48C /* xtensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE60B8212CA86A050044C48C /* Color.swift */,
+			);
+			path = xtensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +172,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE60B8122CA8692C0044C48C /* ContentView.swift in Sources */,
+				CE60B8242CA872550044C48C /* Currency.swift in Sources */,
+				CE60B8222CA86A050044C48C /* Color.swift in Sources */,
+				CE60B82A2CAAC1400044C48C /* MainTabView.swift in Sources */,
 				CE60B8142CA8692C0044C48C /* Item.swift in Sources */,
+				CE60B8262CA878ED0044C48C /* ExchangeRate.swift in Sources */,
+				CE60B82E2CAAC2130044C48C /* SignUpView.swift in Sources */,
+				CE60B82C2CAAC1AE0044C48C /* ProfileDetailsView.swift in Sources */,
 				CE60B8102CA8692C0044C48C /* CurrencyAPIApp.swift in Sources */,
+				CE60B8282CA87EB70044C48C /* ExchangeRateManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,7 +2,7 @@
 //  CurrencyAPIApp.swift
 //  CurrencyAPI
 //
-//  Created by Najd Alsabi on 28/09/2024.
+//  Created by Najd on 28/09/2024.
 //
 
 import SwiftUI
@@ -25,7 +25,7 @@ struct CurrencyAPIApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SignUpView()
         }
         .modelContainer(sharedModelContainer)
     }
